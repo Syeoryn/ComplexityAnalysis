@@ -9,7 +9,7 @@
 
 // --------------- Problem 1 ---------------
 
-var doSomething = function(){
+var doSomething = function(n){
   for(var i = 0; i < n; i++){
     // do something here
   }
@@ -25,7 +25,7 @@ var doSomething = function(){
 
 // --------------- Problem 2 ---------------
 
-var nestedLoops = function(){
+var nestedLoops = function(n){
   for(var i = 0; i < n; i++){
     for(var j = 0; j < n; j++){
       // do something
