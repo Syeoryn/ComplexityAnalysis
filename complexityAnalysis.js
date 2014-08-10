@@ -9,12 +9,13 @@
 
 // --------------- Problem 1 ---------------
 
-for(var i = 0; i < n; i++){
-  // do something here
-}
-
-for(var j = 0; j < n; j++){
-  // do something here
+var doSomething = function(){
+  for(var i = 0; i < n; i++){
+    // do something here
+  }
+  for(var j = 0; j < n; j++){
+    // do something here
+  }
 }
 
 // How many iterations does the first loop go through?
