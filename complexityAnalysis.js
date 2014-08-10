@@ -25,9 +25,11 @@ var doSomething = function(){
 
 // --------------- Problem 2 ---------------
 
-for(var i = 0; i < n; i++){
-  for(var j = 0; j < n; j++){
-    // do something
+var nestedLoops = function(){
+  for(var i = 0; i < n; i++){
+    for(var j = 0; j < n; j++){
+      // do something
+    }
   }
 }
 
