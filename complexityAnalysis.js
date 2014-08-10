@@ -80,13 +80,6 @@ var contains = function(array, target){
 
 // --------------- Problem 5 ---------------
 
-var sortedArrayContains = function(array, target){
-
-}
-
-
-// --------------- Problem 6 ---------------
-
 var findDuplicates = function(array){
   var duplicates = [];
   for (var i = 0; i < array.length; i++){
@@ -102,7 +95,7 @@ var findDuplicates = function(array){
 // What's the time complexity?
 
 
-// --------------- Problem 7 ---------------
+// --------------- Problem 6 ---------------
 
 var findRepeats = function(array){
   var set = {};
@@ -120,7 +113,7 @@ var findRepeats = function(array){
 // What's the time complexity?
 
 
-// --------------- Problem 8 ---------------
+// --------------- Problem 7 ---------------
 
 var fibonacci = function(n){
   return n > 2 ? fibonacci(n - 1) + fibonacci(n - 2) : 1;
@@ -129,7 +122,7 @@ var fibonacci = function(n){
 // What's the time complexity?
 
 
-// --------------- Problem 9 ---------------
+// --------------- Problem 8 ---------------
 
 var nFibonacci = function(n, x, prev){
   x = x || 1;
@@ -142,7 +135,7 @@ var nFibonacci = function(n, x, prev){
 // What's the time complexity?
 
 
-// --------------- Problem 10 ---------------
+// --------------- Problem 9 ---------------
 
 var bubbleSort = function(array){
   var continueSorting = true;
