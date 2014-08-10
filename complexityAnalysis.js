@@ -113,6 +113,8 @@ var findRepeats = function(array){
   return results;
 }
 
+// How does this compare to problem 5 in implementation 
+//                          and algorithmic complexity?
 // What's the time complexity?
 
 
@@ -123,6 +125,7 @@ var fibonacci = function(n){
 }
 
 // What's the time complexity?
+// What are a few ways you could improve upon this function's complexity?
 
 
 // --------------- Problem 8 ---------------
@@ -154,13 +157,13 @@ var bubbleSort = function(array){
       }
     }
   }
-
+  
   return array;
 }
 
 
 // Do I really need to state the question again?
 
-// Nightmare mode:  Look up other sorting functions
+// Nightmare mode:  Look up other sorting algorithms
 //                  and compare their time complexity/ efficiency.
 //                  Find anything interesting?

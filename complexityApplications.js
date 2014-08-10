@@ -19,13 +19,13 @@ var deleteElement = function(/*...*/){
 }
 
 // What's the time complexity?
-// How can you make it more efficient
+// How can you make it more efficient?
 
 
 // --------------- Problem 3 ---------------
 
 // Write a function to determine if an element exists
-// within a sorted array
+//                              within a sorted array
 
 var sortedArrayContains = function(/*...*/){
 
@@ -33,4 +33,4 @@ var sortedArrayContains = function(/*...*/){
 
 // What's the time complexity?
 // How is it different from a similar function
-// that operates on an unsorted array?
+//         that operates on an unsorted array?
