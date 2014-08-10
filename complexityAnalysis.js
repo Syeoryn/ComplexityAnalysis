@@ -40,7 +40,7 @@ var nestedLoops = function(){
 
 // --------------- Problem 3 ---------------
 
-var retrieve = function(key){
+var retrieve = function(key, array){
   var hash = 0;
   for(var i = 0; i < key.length; i++){
     hash = (hash + Math.pow(i, hash)) % array.length;
